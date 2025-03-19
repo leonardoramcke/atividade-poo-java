@@ -1,8 +1,14 @@
-🐶 Atividade de POO em Java Este repositório contém um exemplo prático de Programação Orientada a Objetos (POO) em Java, demonstrando herança e polimorfismo.
+💻 Atividade de POO em Java
 
-📝 Sobre o código 📌 Classes:
+Este repositório contém um exemplo prático de Programação Orientada a Objetos (POO) em Java, demonstrando herança e polimorfismo. O projeto simula uma empresa com diferentes tipos de funcionários (Funcionário Comum, Gerente e Desenvolvedor), cada um com suas próprias características e cálculos de bônus.
 
-Animal (Superclasse) → Contém atributos nome e idade, além do método fazerSom(). Cachorro (Subclasse) → Herda de Animal, sobrescreve fazerSom() e adiciona buscarObjeto(). Gato (Subclasse) → Herda de Animal, sobrescreve fazerSom() e adiciona escalar(). Main → Instancia os objetos e testa herança/polimorfismo.
+📝 Sobre o código
+
+📌 Classes:
+- **Funcionario** (Superclasse) → Contém atributos `nome` e `salario`, além do método `calcularBonus()`.
+- **Gerente** (Subclasse) → Herda de `Funcionario`, sobrescreve `calcularBonus()` e adiciona `bonusExtra`.
+- **Desenvolvedor** (Subclasse) → Herda de `Funcionario`, sobrescreve `calcularBonus()` com um bônus de 15% do salário.
+- **EmpresaGUI** → Classe principal que implementa a interface gráfica para adicionar e visualizar funcionários.
 
 🚀 Como executar
 
@@ -10,8 +16,17 @@ Animal (Superclasse) → Contém atributos nome e idade, além do método fazerS
 
 cd atividade-poo-java
 
-2️⃣ Compile o código: bash Copiar Editar javac Main.java
+2️⃣ Compile o código: bash Copiar Editar javac EmpresaGUI.java
 
-3️⃣ Execute o programa: bash Copiar Editar java Main 🛠️ Tecnologias utilizadas ✅ Java ✅ Paradigma Orientado a Objetos (POO)
+3️⃣ Execute o programa: java EmpresaGUI
 
-📌 Autor 👤 Leonardo Ramcke
+🛠️ Tecnologias utilizadas
+
+Java
+
+Paradigma Orientado a Objetos (POO)
+
+Swing (para a interface gráfica)
+
+📌 Autor
+👤 Leonardo Ramcke
