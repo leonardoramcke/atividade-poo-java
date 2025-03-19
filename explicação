@@ -1,0 +1,62 @@
+1. Introdução ao Projeto
+Objetivo do Projeto: Explique que o programa simula um sistema de gerenciamento de funcionários de uma empresa, onde é possível adicionar diferentes tipos de funcionários (comuns, gerentes e desenvolvedores) e calcular seus bônus.
+
+Tecnologias Utilizadas: Java, Swing (para a interface gráfica), e conceitos de POO como herança, polimorfismo e encapsulamento.
+
+2. Estrutura do Código
+Classes e Herança:
+
+Funcionario: Classe base que contém atributos comuns a todos os funcionários (nome e salario) e métodos para acessar esses atributos e calcular o bônus.
+
+Gerente e Desenvolvedor: Classes derivadas que herdam de Funcionario e sobrescrevem o método calcularBonus para implementar lógicas específicas de bônus.
+
+Interface Gráfica:
+
+EmpresaGUI: Classe principal que contém a lógica da interface gráfica, utilizando componentes do Swing como JFrame, JTable, JButton, e JOptionPane.
+
+3. Funcionamento do Código
+Adição de Funcionários:
+
+Botões: Explique que há três botões na interface, cada um para adicionar um tipo diferente de funcionário.
+
+Diálogos de Entrada: Quando um botão é clicado, uma caixa de diálogo (JOptionPane) é exibida para coletar informações do usuário (nome, salário, e bônus extra para gerentes).
+
+Validação: O código verifica se os valores inseridos são números válidos usando try-catch para evitar erros de conversão.
+
+Exibição na Tabela:
+
+DefaultTableModel: A tabela na interface é atualizada dinamicamente com os dados dos funcionários adicionados.
+
+Polimorfismo: O método calcularBonus é chamado de forma polimórfica, ou seja, a implementação correta é escolhida em tempo de execução com base no tipo do objeto (Funcionario, Gerente, ou Desenvolvedor).
+
+4. Conceitos de POO Aplicados
+Herança: Gerente e Desenvolvedor herdam atributos e métodos de Funcionario.
+
+Polimorfismo: O método calcularBonus é sobrescrito nas classes derivadas para fornecer comportamentos específicos.
+
+Encapsulamento: Os atributos nome e salario são privados e acessados através de métodos públicos (getNome, getSalario).
+
+5. Interface Gráfica
+Componentes Swing: Explique brevemente os componentes Swing utilizados (JFrame, JPanel, JTable, JButton, JScrollPane, etc.).
+
+Layout Management: O uso de BorderLayout e FlowLayout para organizar os componentes na janela.
+
+Event Handling: Como os botões estão configurados para responder a cliques do usuário usando ActionListener.
+
+6. Demonstração Prática
+Execução do Programa: Mostre o programa em funcionamento, adicionando diferentes tipos de funcionários e observando como a tabela é atualizada.
+
+Depuração: Se possível, mostre como depurar o código para entender o fluxo de execução e como os métodos são chamados.
+
+7. Perguntas e Respostas
+Interação com a Turma: Reserve um tempo para responder perguntas dos alunos e discutir possíveis melhorias ou extensões do projeto.
+
+8. Conclusão
+Recapitulação: Reforce os principais conceitos abordados (herança, polimorfismo, encapsulamento, e uso de Swing).
+
+Próximos Passos: Sugira exercícios ou projetos adicionais para os alunos praticarem os conceitos aprendidos.
+
+Exemplo de Explicação para uma Parte Específica:
+Explicando o Método calcularBonus:
+
+"Aqui temos o método calcularBonus na classe Funcionario. Ele retorna 0 porque, por padrão, um funcionário comum não recebe bônus. No entanto, nas classes Gerente e Desenvolvedor, esse método é sobrescrito. Para o Gerente, o bônus é um valor fixo que é passado como parâmetro. Já para o Desenvolvedor, o bônus é calculado como 15% do salário. Isso é um exemplo de polimorfismo, onde o mesmo método pode ter comportamentos diferentes dependendo da classe do objeto."
