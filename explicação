@@ -1,5 +1,5 @@
 1. Introdução ao Projeto
-Objetivo do Projeto: Explique que o programa simula um sistema de gerenciamento de funcionários de uma empresa, onde é possível adicionar diferentes tipos de funcionários (comuns, gerentes e desenvolvedores) e calcular seus bônus.
+Objetivo do Projeto: O programa simula um sistema de gerenciamento de funcionários de uma empresa, onde é possível adicionar diferentes tipos de funcionários (funcionarios, gerentes e desenvolvedores) e calcular seus bônus.
 
 Tecnologias Utilizadas: Java, Swing (para a interface gráfica), e conceitos de POO como herança, polimorfismo e encapsulamento.
 
@@ -17,7 +17,7 @@ EmpresaGUI: Classe principal que contém a lógica da interface gráfica, utiliz
 3. Funcionamento do Código
 Adição de Funcionários:
 
-Botões: Explique que há três botões na interface, cada um para adicionar um tipo diferente de funcionário.
+Botões: há três botões na interface, cada um para adicionar um tipo diferente de funcionário.
 
 Diálogos de Entrada: Quando um botão é clicado, uma caixa de diálogo (JOptionPane) é exibida para coletar informações do usuário (nome, salário, e bônus extra para gerentes).
 
@@ -37,7 +37,7 @@ Polimorfismo: O método calcularBonus é sobrescrito nas classes derivadas para 
 Encapsulamento: Os atributos nome e salario são privados e acessados através de métodos públicos (getNome, getSalario).
 
 5. Interface Gráfica
-Componentes Swing: Explique brevemente os componentes Swing utilizados (JFrame, JPanel, JTable, JButton, JScrollPane, etc.).
+Componentes Swing: Componentes Swing utilizados (JFrame, JPanel, JTable, JButton, JScrollPane, etc.).
 
 Layout Management: O uso de BorderLayout e FlowLayout para organizar os componentes na janela.
 
