@@ -12,11 +12,28 @@ Este repositório contém um exemplo prático de Programação Orientada a Objet
 
 🚀 Como executar
 
-1️⃣ Clone o repositório: bash Copiar Editar git clone https://github.com/leonardoramcke/atividade-poo-java.git
+Antes de começar, você precisará de alguns programas instalados no seu computador:
 
-cd atividade-poo-java
+Java Development Kit (JDK): Para compilar e executar código Java.
 
-2️⃣ Compile o código: bash Copiar Editar javac EmpresaGUI.java
+Download: JDK da Oracle ou OpenJDK.
+
+Instale o JDK seguindo as instruções do site.
+
+Git (opcional, mas recomendado): Para clonar o repositório.
+
+Download: Git.
+
+Instale o Git seguindo as instruções do site.
+
+Terminal/Command Prompt: Para executar comandos.
+
+No Windows, use o Command Prompt ou PowerShell.
+
+No macOS/Linux/Windows, use o Terminal.
+1️⃣ Clone o repositório: git clone https://github.com/leonardoramcke/atividade-poo-java.git
+
+2️⃣ Compile o código: javac EmpresaGUI.java
 
 3️⃣ Execute o programa: java EmpresaGUI
 
