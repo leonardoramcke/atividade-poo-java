@@ -31,7 +31,8 @@ Terminal/Command Prompt: Para executar comandos.
 No Windows, use o Command Prompt ou PowerShell.
 
 No macOS/Linux/Windows, use o Terminal.
-1️⃣ Clone o repositório: git clone https://github.com/leonardoramcke/atividade-poo-java.git
+1️⃣ Clone o repositório: git clone https://github.com/leonardoramcke/atividade-poo-java.git  
+após clonar digite: cd atividade-poo-java
 
 2️⃣ Compile o código: javac EmpresaGUI.java
 
